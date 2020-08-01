@@ -337,7 +337,7 @@ listFrame:AddChild(collapse:GetSectionFrame()) -- add child to expanding Vertica
 
 listFrame:AddBottomPadding() -- add padding to VerticallyScalingListFrame
 
-listFrame:GetFrame().Parent = scrollFrame:GetContentFrame() -- scroll content will be the VerticallyScalingListFrame
+listFrame:GetFrame().Parent = scrollFrame:GetContentsFrame() -- scroll content will be the VerticallyScalingListFrame
 scrollFrame:GetSectionFrame().Parent = widgetGui -- set the section parent
 ```
 
